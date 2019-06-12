@@ -76,7 +76,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
 
-            android:id="@+id/textView" app:layout_constraintHorizontal_bias="0.094"
+            android:id="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.094"
             app:layout_constraintVertical_bias="0.094"/>
     <TextView
             android:text="Insira senha:"
@@ -92,7 +93,8 @@
             app:layout_constraintStart_toStartOf="parent"
 
             android:id="@+id/textView2"
-            app:layout_constraintHorizontal_bias="0.163" app:layout_constraintVertical_bias="0.227"/>
+            app:layout_constraintHorizontal_bias="0.163"
+            app:layout_constraintVertical_bias="0.227"/>
     <TextView
             android:text="Repita senha:"
             android:layout_width="wrap_content"
@@ -121,7 +123,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
 
-            android:id="@+id/btn_cadastrar_usuario" app:layout_constraintVertical_bias="0.445"/>
+            android:id="@+id/btn_cadastrar_usuario"
+            app:layout_constraintVertical_bias="0.445"/>
     <ListView
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
