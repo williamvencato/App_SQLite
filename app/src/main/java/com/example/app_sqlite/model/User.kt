@@ -1,6 +1,6 @@
 package com.example.app_sqlite.model
 
-class Usuario {
+class User {
     var id       : Int = 0
     var user     : String? = null
     var password : String? = null
@@ -12,6 +12,4 @@ class Usuario {
         this.user = user
         this.password = password
     }
-
-
 }
