@@ -72,10 +72,9 @@ class DBHelper(context: Context):SQLiteOpenHelper(context, DATABASE_NAME, null, 
             return db.update(TABLE_NAME, values, "$COL_ID=?", arrayOf(user.id.toString()))
         }
 
-        fun deleteUser(user:User):Int {
+        fun deleteUser(user:User) {
             val db = this.writableDatabase
-
-            return db.delete(TABLE_NAME, "$COL_ID=?", arrayOf(user.id.toString()))
+            db.delete(TABLE_NAME, "$COL_ID=?", arrayOf(user.id.toString()))
             db.close()
         }
 }

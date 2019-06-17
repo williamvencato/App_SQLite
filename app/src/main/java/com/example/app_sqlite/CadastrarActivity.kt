@@ -41,7 +41,7 @@ class CadastrarActivity : AppCompatActivity() {
             refreshData()
         }
 
-        btn_update.setOnClickListener() {
+        btn_delete.setOnClickListener() {
             val user = User(
                 Integer.parseInt(edt_id.text.toString()),
                 edt_user.text.toString(),
